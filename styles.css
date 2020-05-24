@@ -1,0 +1,82 @@
+body{
+    font-family:'Poppins', sans-serif; 
+    font-size: 15px;
+    background-color: beige;
+}
+
+h1{
+    font-family: 'Poppins';
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+}
+h2{
+    color: hsl(229, 6%, 66%);
+    font-family: Poppins;
+    text-align: center;
+}
+h3{
+    font-weight: 600;
+    font-family: Poppins;
+
+}
+
+.description{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.cards{
+    position: relative;
+    padding: 10px;
+}
+.supervisor{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+   width: 325px; height: 215px;
+   background-color:#ffff ;
+    border-top: solid  hsl(180, 62%, 55%);
+    border-radius: 10px;
+   box-shadow: 0, 12px,24px,0 black;
+   text-align: left;
+   padding: 20px;
+}
+.team-builder{
+    position: absolute;
+    left: 500px;
+    width: 325px; height: 215px;
+    background-color:#ffff ;
+    border-top: solid hsl(0, 78%, 62%);
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    margin: 0,150px;
+}
+.karma{
+    position: absolute;
+    left:900px;
+    top: 215px;
+    width: 325px; height: 215px;
+    background-color:#ffff ;
+    border-top: solid  hsl(34, 97%, 64%);
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+}
+.calculator{
+    position: absolute;
+    left: 500px;
+    top:350px;
+    width: 325px; height: 215px;
+    background-color:#ffff ;
+    border-top: solid hsl(212, 86%, 64%);
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+}
+.images{
+    float: right;
+}
+
+
